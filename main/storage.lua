@@ -12,7 +12,7 @@ local taskName
 
 --Stock Tables--
 stock = {
-  {"minecraft:iron_ingot", 0.0, 8}
+--  {"minecraft:iron_ingot", 0.0, 8}
 --  {"minecraft:torch", 0.0, 8}
 }
 
