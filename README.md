@@ -13,4 +13,4 @@ stock = {
 The item name "mod:item" is given with minecraft advanced debug options. The damage number is needed for some mods such as Thermal Expansion or Mekanism. The amount number is the amount of the item to keep stock of.
 For example, keeping a stock of 32 osmium ingots from Mekanism would be an entry like:
 
-{"mekanism:ingot, 1.0, 32}
+{"mekanism:ingot", 1.0, 32}
