@@ -26,13 +26,14 @@ function conflictCheck (itemName, itemDamage)
         checkConflict = nil
       end
     end
+  end
   return checkConflict
 end
 
 --Main--
 while 1 do
-    
-event.listen(key_down(),os.exit())
+os.sleep(1)
+event.listen("key_down",os.exit())
 for i, v in pairs(stock) do
   if rs.getItem({name=v[1], damage=v[2]}) then
     item = rs.getItem({name=v[1], damage=v[2]})
