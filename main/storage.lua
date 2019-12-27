@@ -32,7 +32,7 @@ end
 
 --Main--
 while 1 do
-os.sleep(1)
+os.sleep(2)
 event.listen("key_down",os.exit())
 for i, v in pairs(stock) do
   if rs.getItem({name=v[1], damage=v[2]}) then
